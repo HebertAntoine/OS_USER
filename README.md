@@ -1,17 +1,17 @@
 # OS_USER
 Avant de compiler et lancer le projet, il faut avoir installé les dépendances suivantes :
 
-gcc
+- gcc
 
-SDL2
+- SDL2
 
-SDL2_image
+- SDL2_image
 
-SDL2_ttfp
+- SDL2_ttfp
 
-thread
+- thread
 
-Homebrew
+- Homebrew
 
 Sous Debian/Ubuntu :
 
