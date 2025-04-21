@@ -1,11 +1,11 @@
 # OS_USER
 Avant de compiler et lancer le projet, il faut avoir installé les dépendances suivantes :
-	•	gcc
-	•	SDL2
-	•	SDL2_image
-	•	SDL2_ttf
-	•	pthread
- 	•	Homebrew
+gcc
+SDL2
+SDL2_image
+SDL2_ttfp
+thread
+Homebrew
 
 Sous Debian/Ubuntu :
 sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev build-essential
