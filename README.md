@@ -36,7 +36,7 @@ pour lancer le serveur :
 
 ```./server 1234```
 
-pour lancer les clients : 
+pour lancer les clients dans chacun des terminal : 
 
 ```./sh13 127.0.0.1 1234 127.0.0.1 2000 joueur1```
 
