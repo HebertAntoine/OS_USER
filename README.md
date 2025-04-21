@@ -25,7 +25,11 @@ pour lancer le serveur :
 ./server 1234
 
 pour lancer les clients : 
+
 ./sh13 127.0.0.1 1234 127.0.0.1 2000 joueur1
+
 ./sh13 127.0.0.1 1234 127.0.0.1 2001 joueur2
+
 ./sh13 127.0.0.1 1234 127.0.0.1 2002 joueur3
+
 ./sh13 127.0.0.1 1234 127.0.0.1 2003 joueur4
