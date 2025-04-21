@@ -19,29 +19,29 @@ Sous Debian/Ubuntu :
 
 sous macOS avec Homebrew :
 
-brew install sdl2 sdl2_image sdl2_ttf
+```brew install sdl2 sdl2_image sdl2_ttf```
 
 et maintenant il faut aller dans le dossier concerné et :
 
 pour compiler le serveur :
 
-gcc -o server server.c
+```gcc -o server server.c```
 
 pour compiler le client : 
 
-gcc -o sh13 sh13.c `sdl2-config --cflags --libs` -lSDL2_image -lSDL2_ttf -pthread
+```gcc -o sh13 sh13.c `sdl2-config --cflags --libs` -lSDL2_image -lSDL2_ttf -pthread```
 
 
 pour lancer le serveur : 
 
-./server 1234
+```./server 1234```
 
 pour lancer les clients : 
 
-./sh13 127.0.0.1 1234 127.0.0.1 2000 joueur1
+```./sh13 127.0.0.1 1234 127.0.0.1 2000 joueur1```
 
-./sh13 127.0.0.1 1234 127.0.0.1 2001 joueur2
+```./sh13 127.0.0.1 1234 127.0.0.1 2001 joueur2```
 
-./sh13 127.0.0.1 1234 127.0.0.1 2002 joueur3
+```./sh13 127.0.0.1 1234 127.0.0.1 2002 joueur3```
 
-./sh13 127.0.0.1 1234 127.0.0.1 2003 joueur4
+```./sh13 127.0.0.1 1234 127.0.0.1 2003 joueur4```
