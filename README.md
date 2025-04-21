@@ -15,7 +15,7 @@ Avant de compiler et lancer le projet, il faut avoir installé les dépendances 
 
 Sous Debian/Ubuntu :
 
-sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev build-essential
+```sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev build-essential```
 
 sous macOS avec Homebrew :
 
